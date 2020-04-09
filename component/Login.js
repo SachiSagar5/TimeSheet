@@ -38,7 +38,6 @@ export default  function Login ({ navigation }) {
     }
     return (
       <Container>
-        
         <Content style={{padding:'10px'}} >
         <Form> 
             <Item stackedLabel>
@@ -50,7 +49,7 @@ export default  function Login ({ navigation }) {
               <Input name='password' onChangeText={handlepassword} secureTextEntry={true}/>
             </Item>
             
-                <Button  block style={styles.red}   onPress={handleLogin}>
+                <Button  block style={styles.red}  onPress={handleLogin}>
                 <Text>Login</Text>
               </Button>
              
@@ -70,7 +69,8 @@ const styles = StyleSheet.create({
     alignItems:'center'
   },
   red:{
-    backgroundColor:'#FA6152'
+    backgroundColor:'#FA6152',
+    marginTop:30
   },
   MainContainer: {
     // flex: 1,
@@ -78,6 +78,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width:200,
     height: 200,
-  }
- 
+  },
+
 })
