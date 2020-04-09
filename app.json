@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "EmpTimeSheet",
+    "slug": "EmpTimeSheet",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.torryharris.EmpTimeSheet",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.torryharris.EmpTimeSheet",
+      "versionCode": 1
+    }
+  }
+}
+
